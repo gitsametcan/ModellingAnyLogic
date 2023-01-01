@@ -983,7 +983,7 @@
 				<TableFunction AccessType="public" StaticFunction="false">
 					<Id>1672510657745</Id>
 					<Name><![CDATA[StaffSpeed]]></Name>
-					<X>540</X><Y>10</Y>
+					<X>420</X><Y>20</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1020,7 +1020,7 @@
 				<TableFunction AccessType="public" StaticFunction="false">
 					<Id>1672553445239</Id>
 					<Name><![CDATA[EatsTime]]></Name>
-					<X>720</X><Y>90</Y>
+					<X>530</X><Y>20</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1065,7 +1065,7 @@
 				<Schedule>
 					<Id>1672575300155</Id>
 					<Name><![CDATA[StudentSchedule]]></Name>
-					<X>240</X><Y>-30</Y>
+					<X>100</X><Y>20</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1123,7 +1123,7 @@
 				<Schedule>
 					<Id>1672576389256</Id>
 					<Name><![CDATA[PersonnelSchedule]]></Name>
-					<X>420</X><Y>-30</Y>
+					<X>250</X><Y>20</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12774,7 +12774,7 @@ Samet CAN--------------150120528]]></Text>
     			<BarChart>
 					<Id>1672583731104</Id>
 					<Name><![CDATA[chart]]></Name>
-					<X>840</X><Y>780</Y>
+					<X>900</X><Y>400</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12793,14 +12793,14 @@ Samet CAN--------------150120528]]></Text>
 					</RecurrenceCode>
 					<EmbeddedIcon>false</EmbeddedIcon>
 					<Width>260</Width>
-					<Height>200</Height>
+					<Height>230</Height>
 					<BackgroundColor/>
 					<BorderColor/>
 					<ChartArea>
 						<XOffset>50</XOffset>
-						<YOffset>30</YOffset>
+						<YOffset>10</YOffset>
 						<Width>180</Width>
-						<Height>110</Height>
+						<Height>130</Height>
 						<BackgroundColor>-1</BackgroundColor>
 						<BorderColor>-16777216</BorderColor>
 						<GridColor>-12566464</GridColor>
@@ -12808,7 +12808,7 @@ Samet CAN--------------150120528]]></Text>
 					<Legend>
 						<Place>SOUTH</Place>
 						<TextColor>-16777216</TextColor>
-						<Size>30</Size>
+						<Size>80</Size>
 					</Legend>
 					<Labels>
 						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
@@ -12855,7 +12855,7 @@ Samet CAN--------------150120528]]></Text>
     			<Histogram>
 					<Id>1672584468112</Id>
 					<Name><![CDATA[chart2]]></Name>
-					<X>10</X><Y>1040</Y>
+					<X>1440</X><Y>0</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12913,13 +12913,13 @@ Samet CAN--------------150120528]]></Text>
 						<ColorHighPercent>-2987746</ColorHighPercent>
 						<ColorMean>-4565549</ColorMean>
 						<LineWidth>1</LineWidth>						
-						<Title><![CDATA[Histogram Data Title 2]]></Title>							
+						<Title><![CDATA[OustsideQueueEnd]]></Title>							
 					</HistogramDataExpression>
     			</Histogram>
     			<Histogram>
 					<Id>1672584515119</Id>
 					<Name><![CDATA[chart3]]></Name>
-					<X>280</X><Y>1040</Y>
+					<X>1440</X><Y>260</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12977,13 +12977,13 @@ Samet CAN--------------150120528]]></Text>
 						<ColorHighPercent>-9807155</ColorHighPercent>
 						<ColorMean>-8097537</ColorMean>
 						<LineWidth>1</LineWidth>						
-						<Title><![CDATA[Histogram Data Title]]></Title>							
+						<Title><![CDATA[InsideQueueEnd]]></Title>							
 					</HistogramDataExpression>
     			</Histogram>
     			<Histogram>
 					<Id>1672584518062</Id>
 					<Name><![CDATA[chart4]]></Name>
-					<X>550</X><Y>1040</Y>
+					<X>1440</X><Y>520</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13041,13 +13041,13 @@ Samet CAN--------------150120528]]></Text>
 						<ColorHighPercent>-4343957</ColorHighPercent>
 						<ColorMean>-12004916</ColorMean>
 						<LineWidth>1</LineWidth>						
-						<Title><![CDATA[Histogram Data Title]]></Title>							
+						<Title><![CDATA[InsideQueue2End]]></Title>							
 					</HistogramDataExpression>
     			</Histogram>
     			<Histogram>
 					<Id>1672584532387</Id>
 					<Name><![CDATA[chart5]]></Name>
-					<X>830</X><Y>1040</Y>
+					<X>1440</X><Y>780</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13105,13 +13105,13 @@ Samet CAN--------------150120528]]></Text>
 						<ColorHighPercent>-9807155</ColorHighPercent>
 						<ColorMean>-2354116</ColorMean>
 						<LineWidth>1</LineWidth>						
-						<Title><![CDATA[Histogram Data Title]]></Title>							
+						<Title><![CDATA[PersonnelQueueEnd]]></Title>							
 					</HistogramDataExpression>
     			</Histogram>
     			<StackChart>
 					<Id>1672585189730</Id>
-					<Name><![CDATA[chart1]]></Name>
-					<X>10</X><Y>1280</Y>
+					<Name><![CDATA[Staff1Chart]]></Name>
+					<X>1140</X><Y>0</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13137,7 +13137,7 @@ Samet CAN--------------150120528]]></Text>
 						<XOffset>50</XOffset>
 						<YOffset>30</YOffset>
 						<Width>180</Width>
-						<Height>120</Height>
+						<Height>125</Height>
 						<BackgroundColor>-1</BackgroundColor>
 						<BorderColor>-16777216</BorderColor>
 						<GridColor>-12566464</GridColor>
@@ -13145,7 +13145,7 @@ Samet CAN--------------150120528]]></Text>
 					<Legend>
 						<Place>SOUTH</Place>
 						<TextColor>-16777216</TextColor>
-						<Size>30</Size>
+						<Size>40</Size>
 					</Legend>
 					<Labels>
 						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
@@ -13158,14 +13158,14 @@ Samet CAN--------------150120528]]></Text>
 					<Expression><![CDATA[Staff1.statsUtilization.mean()]]></Expression>
 					<Color>-16744448</Color>
 					<Expression2Flag>true</Expression2Flag>
-						<Title><![CDATA[item]]></Title>
+						<Title><![CDATA[mean busy time]]></Title>
 					</DataItem>
 					<DataItem>
 					<Id>0</Id>
 					<Expression><![CDATA[1-Staff1.statsUtilization.mean()]]></Expression>
 					<Color>-32944</Color>
 					<Expression2Flag>true</Expression2Flag>
-						<Title><![CDATA[item1]]></Title>
+						<Title><![CDATA[mean idle time]]></Title>
 					</DataItem>
 					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
 					<ScaleType>AUTO</ScaleType>
@@ -13176,8 +13176,8 @@ Samet CAN--------------150120528]]></Text>
     			</StackChart>
     			<StackChart>
 					<Id>1672585300851</Id>
-					<Name><![CDATA[chart9]]></Name>
-					<X>280</X><Y>1280</Y>
+					<Name><![CDATA[Staff2Chart]]></Name>
+					<X>1160</X><Y>260</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13211,7 +13211,7 @@ Samet CAN--------------150120528]]></Text>
 					<Legend>
 						<Place>SOUTH</Place>
 						<TextColor>-16777216</TextColor>
-						<Size>30</Size>
+						<Size>45</Size>
 					</Legend>
 					<Labels>
 						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
@@ -13224,14 +13224,14 @@ Samet CAN--------------150120528]]></Text>
 					<Expression><![CDATA[Staff2.statsUtilization.mean()]]></Expression>
 					<Color>-16744448</Color>
 					<Expression2Flag>true</Expression2Flag>
-						<Title><![CDATA[item]]></Title>
+						<Title><![CDATA[mean busy time]]></Title>
 					</DataItem>
 					<DataItem>
 					<Id>1672585300848</Id>
 					<Expression><![CDATA[1-Staff2.statsUtilization.mean()]]></Expression>
 					<Color>-32944</Color>
 					<Expression2Flag>true</Expression2Flag>
-						<Title><![CDATA[item1]]></Title>
+						<Title><![CDATA[mean idle time]]></Title>
 					</DataItem>
 					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
 					<ScaleType>AUTO</ScaleType>
@@ -13242,8 +13242,8 @@ Samet CAN--------------150120528]]></Text>
     			</StackChart>
     			<StackChart>
 					<Id>1672585321716</Id>
-					<Name><![CDATA[chart10]]></Name>
-					<X>560</X><Y>1280</Y>
+					<Name><![CDATA[Staff3Chart]]></Name>
+					<X>1160</X><Y>520</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13277,7 +13277,7 @@ Samet CAN--------------150120528]]></Text>
 					<Legend>
 						<Place>SOUTH</Place>
 						<TextColor>-16777216</TextColor>
-						<Size>30</Size>
+						<Size>45</Size>
 					</Legend>
 					<Labels>
 						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
@@ -13290,14 +13290,14 @@ Samet CAN--------------150120528]]></Text>
 					<Expression><![CDATA[Staff3.statsUtilization.mean()]]></Expression>
 					<Color>-16744448</Color>
 					<Expression2Flag>true</Expression2Flag>
-						<Title><![CDATA[item]]></Title>
+						<Title><![CDATA[mean busy time]]></Title>
 					</DataItem>
 					<DataItem>
 					<Id>1672585321713</Id>
 					<Expression><![CDATA[1-Staff3.statsUtilization.mean()]]></Expression>
 					<Color>-32944</Color>
 					<Expression2Flag>true</Expression2Flag>
-						<Title><![CDATA[item1]]></Title>
+						<Title><![CDATA[mean idle time]]></Title>
 					</DataItem>
 					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
 					<ScaleType>AUTO</ScaleType>
@@ -13308,8 +13308,8 @@ Samet CAN--------------150120528]]></Text>
     			</StackChart>
     			<StackChart>
 					<Id>1672585349607</Id>
-					<Name><![CDATA[chart11]]></Name>
-					<X>830</X><Y>1290</Y>
+					<Name><![CDATA[TablesChart]]></Name>
+					<X>1160</X><Y>780</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13343,7 +13343,7 @@ Samet CAN--------------150120528]]></Text>
 					<Legend>
 						<Place>SOUTH</Place>
 						<TextColor>-16777216</TextColor>
-						<Size>30</Size>
+						<Size>35</Size>
 					</Legend>
 					<Labels>
 						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
@@ -13356,7 +13356,7 @@ Samet CAN--------------150120528]]></Text>
 					<Expression><![CDATA[Tables.delay.statsUtilization.integral()]]></Expression>
 					<Color>-16744448</Color>
 					<Expression2Flag>true</Expression2Flag>
-						<Title><![CDATA[item]]></Title>
+						<Title><![CDATA[busy time]]></Title>
 					</DataItem>
 					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
 					<ScaleType>AUTO</ScaleType>
@@ -13936,8 +13936,8 @@ Samet CAN--------------150120528]]></Text>
 	<RelativeAccuracy>1.0E-5</RelativeAccuracy>
 	<TimeAccuracy>1.0E-5</TimeAccuracy>
 	<Frame>
-		<Width>1000</Width>
-		<Height>600</Height>
+		<Width>1700</Width>
+		<Height>1020</Height>
 	</Frame>
 	<Database>
 		<Logging>true</Logging>
