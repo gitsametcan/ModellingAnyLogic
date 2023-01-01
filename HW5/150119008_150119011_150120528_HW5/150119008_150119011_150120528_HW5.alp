@@ -144,39 +144,6 @@
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1672517549301</Id>
-					<Name><![CDATA[connector15]]></Name>
-					<X>840</X><Y>160</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[restrictedAreaEnd]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[RestrictedAreaEnd]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[Destroyer]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Sink]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>80</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
 					<Id>1672551999000</Id>
 					<Name><![CDATA[connector]]></Name>
 					<X>800</X><Y>40</Y>
@@ -764,7 +731,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[timeMeasureStart3]]></ItemName>
+						<ItemName><![CDATA[OutsideQueueStart]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -788,7 +755,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[timeMeasureStart3]]></ItemName>
+						<ItemName><![CDATA[OutsideQueueStart]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -946,7 +913,7 @@
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1672586336024</Id>
+					<Id>1672609497176</Id>
 					<Name><![CDATA[connector20]]></Name>
 					<X>90</X><Y>290</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -976,6 +943,39 @@
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>250</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1672609505788</Id>
+					<Name><![CDATA[connector15]]></Name>
+					<X>840</X><Y>160</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[restrictedAreaEnd]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[RestrictedAreaEnd]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[Destroyer]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Sink]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>70</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 			</Connectors>
@@ -1416,9 +1416,6 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onAtExit]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.priority = 2]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
@@ -1683,9 +1680,6 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onAtExit]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.priority = 1]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
@@ -2260,7 +2254,7 @@
 				<EmbeddedObject>
 					<Id>1672405932957</Id>
 					<Name><![CDATA[Destroyer]]></Name>
-					<X>920</X><Y>150</Y>
+					<X>910</X><Y>150</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3605,7 +3599,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1672584208762</Id>
-					<Name><![CDATA[timeMeasureStart3]]></Name>
+					<Name><![CDATA[OutsideQueueStart]]></Name>
 					<X>140</X><Y>110</Y>
 					<Label><X>-45</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -3689,7 +3683,7 @@
 						<Parameter>
 							<Name><![CDATA[startObjects]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[{ timeMeasureStart3 }]]></Code>
+								<Code><![CDATA[{ OutsideQueueStart }]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4173,7 +4167,7 @@ Samet CAN--------------150120528]]></Text>
 				<Path>
 					<Id>1672552288216</Id>
 					<Name><![CDATA[OutsideQueuePAth]]></Name>
-					<X>30</X><Y>600</Y>
+					<X>30</X><Y>650</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4191,17 +4185,17 @@ Samet CAN--------------150120528]]></Text>
 					</Width>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>7.352146220938077</X><Y>-23.894475218048754</Y><Z>0</Z></Point>
+						<Point><X>5.423</X><Y>-24.405</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-50</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-100</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>-75</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-130</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-105</Y><Z>0</Z></Point>
-						<Point><X>25</X><Y>-130</Y><Z>0</Z></Point>
-						<Point><X>40</X><Y>-130</Y><Z>0</Z></Point>
-						<Point><X>15</X><Y>-130</Y><Z>0</Z></Point>
-						<Point><X>32.648</X><Y>-106.106</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-125</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-180</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-155</Y><Z>0</Z></Point>
+						<Point><X>25</X><Y>-180</Y><Z>0</Z></Point>
+						<Point><X>40</X><Y>-180</Y><Z>0</Z></Point>
+						<Point><X>15</X><Y>-180</Y><Z>0</Z></Point>
+						<Point><X>34.5767385545336</X><Y>-155.59532349540117</Y><Z>0</Z></Point>
 					</Points>
 					<Bidirectional>true</Bidirectional>
 					<SpeedLimit>false</SpeedLimit>
@@ -12774,7 +12768,7 @@ Samet CAN--------------150120528]]></Text>
     			<BarChart>
 					<Id>1672583731104</Id>
 					<Name><![CDATA[chart]]></Name>
-					<X>900</X><Y>400</Y>
+					<X>830</X><Y>620</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12792,14 +12786,14 @@ Samet CAN--------------150120528]]></Text>
 						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 					</RecurrenceCode>
 					<EmbeddedIcon>false</EmbeddedIcon>
-					<Width>260</Width>
+					<Width>340</Width>
 					<Height>230</Height>
 					<BackgroundColor/>
 					<BorderColor/>
 					<ChartArea>
 						<XOffset>50</XOffset>
 						<YOffset>10</YOffset>
-						<Width>180</Width>
+						<Width>260</Width>
 						<Height>130</Height>
 						<BackgroundColor>-1</BackgroundColor>
 						<BorderColor>-16777216</BorderColor>
@@ -12818,31 +12812,31 @@ Samet CAN--------------150120528]]></Text>
 					<ShowLegend>true</ShowLegend>
 					<DataItem>
 					<Id>0</Id>
-					<Expression><![CDATA[OutsideQueue.statsSize.integral()]]></Expression>
+					<Expression><![CDATA[OutsideQueue.statsSize.mean()]]></Expression>
 					<Color>-12799119</Color>
 					<Expression2Flag>true</Expression2Flag>
-						<Title><![CDATA[Total spend time in OutQueue]]></Title>
+						<Title><![CDATA[Average number of person in OutQueue]]></Title>
 					</DataItem>
 					<DataItem>
 					<Id>0</Id>
-					<Expression><![CDATA[InsideQueue.statsSize.integral()]]></Expression>
+					<Expression><![CDATA[InsideQueue.statsSize.mean()]]></Expression>
 					<Color>-8355712</Color>
 					<Expression2Flag>true</Expression2Flag>
-						<Title><![CDATA[Total spend time in InQueue]]></Title>
+						<Title><![CDATA[Average number of person in InQueue]]></Title>
 					</DataItem>
 					<DataItem>
 					<Id>0</Id>
-					<Expression><![CDATA[InsideQueue2.statsSize.integral()]]></Expression>
+					<Expression><![CDATA[InsideQueue2.statsSize.mean()]]></Expression>
 					<Color>-2987746</Color>
 					<Expression2Flag>true</Expression2Flag>
-						<Title><![CDATA[Total spend time in InQueue2]]></Title>
+						<Title><![CDATA[Average number of person in InQueue2]]></Title>
 					</DataItem>
 					<DataItem>
 					<Id>0</Id>
-					<Expression><![CDATA[PersonnelQueue.statsSize.integral()]]></Expression>
+					<Expression><![CDATA[PersonnelQueue.statsSize.mean()]]></Expression>
 					<Color>-256</Color>
 					<Expression2Flag>true</Expression2Flag>
-						<Title><![CDATA[Total spend time in PersonnelQueue]]></Title>
+						<Title><![CDATA[Average number of person in PersonnelQueue]]></Title>
 					</DataItem>
 					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
 					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
@@ -13111,7 +13105,7 @@ Samet CAN--------------150120528]]></Text>
     			<StackChart>
 					<Id>1672585189730</Id>
 					<Name><![CDATA[Staff1Chart]]></Name>
-					<X>1140</X><Y>0</Y>
+					<X>1160</X><Y>0</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13353,10 +13347,17 @@ Samet CAN--------------150120528]]></Text>
 					<ShowLegend>true</ShowLegend>
 					<DataItem>
 					<Id>1672585349603</Id>
-					<Expression><![CDATA[Tables.delay.statsUtilization.integral()]]></Expression>
+					<Expression><![CDATA[Tables.delay.statsUtilization.mean()/160]]></Expression>
 					<Color>-16744448</Color>
 					<Expression2Flag>true</Expression2Flag>
 						<Title><![CDATA[busy time]]></Title>
+					</DataItem>
+					<DataItem>
+					<Id>0</Id>
+					<Expression><![CDATA[1-Tables.delay.statsUtilization.mean()/160]]></Expression>
+					<Color>-32944</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[idle time]]></Title>
 					</DataItem>
 					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
 					<ScaleType>AUTO</ScaleType>
