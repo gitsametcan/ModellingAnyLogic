@@ -109,32 +109,6 @@
 			</ScaleRuler>
 			<CurrentLevel>1671819326236</CurrentLevel>
 			<ConnectionsId>1671819326232</ConnectionsId>
-			<Variables>
-				<Variable Class="Parameter">
-					<Id>1672578325272</Id>
-					<Name><![CDATA[priority]]></Name>
-					<X>590</X><Y>-40</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[int]]></Type>
-						<UnitType><![CDATA[NONE]]></UnitType>
-						<SdArray>false</SdArray>
-						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</DefaultValue>
-						<ParameterEditor>
-							<Id>1672578325270</Id>
-							<EditorContolType>TEXT_BOX</EditorContolType>
-							<MinSliderValue><![CDATA[0]]></MinSliderValue>
-							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
-							<DelimeterType>NO_DELIMETER</DelimeterType>
-						</ParameterEditor>
-					</Properties>                 
-				</Variable>
-			</Variables>
 			<Connectors>
 				<Connector>
 					<Id>1672428734648</Id>
@@ -191,39 +165,6 @@
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
 						<ItemName><![CDATA[Staff1]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Delay]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>80</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1672429014316</Id>
-					<Name><![CDATA[connector11]]></Name>
-					<X>460</X><Y>290</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[PersonnelQueue]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Queue]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[Staff3]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -675,9 +616,9 @@
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1672578667553</Id>
+					<Id>1672580393759</Id>
 					<Name><![CDATA[connector6]]></Name>
-					<X>660</X><Y>160</Y>
+					<X>0</X><Y>0</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -695,6 +636,39 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[Tables]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Service]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>660</X><Y>160</Y></Point>
+						<Point><X>715</X><Y>160</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1672580393760</Id>
+					<Name><![CDATA[connector8]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[Tables]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Service]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
 						<ItemName><![CDATA[restrictedAreaEnd]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
@@ -703,8 +677,41 @@
 						<ItemName><![CDATA[in]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
+						<Point><X>755</X><Y>160</Y></Point>
+						<Point><X>820</X><Y>160</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1672581652306</Id>
+					<Name><![CDATA[connector11]]></Name>
+					<X>460</X><Y>290</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[PersonnelQueue]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Queue]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[Staff3]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Delay]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>160</X><Y>0</Y></Point>
+						<Point><X>80</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 			</Connectors>
@@ -1065,6 +1072,9 @@
 										</GenericParameterSubstituteReference>
 									</GenericParameterSubstitute>
 									<Parameters>
+										<Parameter>
+											<Name><![CDATA[priority]]></Name>
+										</Parameter>
 									</Parameters>
 									<ReplicationFlag>true</ReplicationFlag>
 									<Replication Class="CodeValue">
@@ -1329,6 +1339,9 @@
 										</GenericParameterSubstituteReference>
 									</GenericParameterSubstitute>
 									<Parameters>
+										<Parameter>
+											<Name><![CDATA[priority]]></Name>
+										</Parameter>
 									</Parameters>
 									<ReplicationFlag>true</ReplicationFlag>
 									<Replication Class="CodeValue">
@@ -1614,15 +1627,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[queuing]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[self.QUEUING_PRIORITY]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[priority]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.priority]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[comparison]]></Name>
@@ -2556,7 +2563,7 @@
 					<Label><X>-50</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
+					<ShowLabel>false</ShowLabel>
 					<ActiveObjectClass>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
 						<ClassName><![CDATA[RestrictedAreaStart]]></ClassName>
@@ -2774,6 +2781,211 @@
 					<QuantityColumn>
 					</QuantityColumn>
 				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1672580391555</Id>
+					<Name><![CDATA[Tables]]></Name>
+					<X>715</X><Y>140</Y>
+					<Label><X>-10</X><Y>-15</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Service]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+							<ClassName><![CDATA[Service]]></ClassName>
+							<ItemName><![CDATA[1412336243141]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[seizeFromOnePool]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceSets]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourcePool]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceQuantity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[seizePolicy]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[queueCapacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[1]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[maximumCapacity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[EatsTime(random())]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[sendResources]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationType]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationNode]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationAttractor]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[movingGoHome]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[entityLocationQueue]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[entityLocationDelay]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[node]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[priority]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[taskMayPreemptOtherTasks]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[taskPreemptionPolicy]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[terminatedTasksEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[suspendResumeEntities]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpTaskPolicyType]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpTaskPriority]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpTaskPreemptionPolicy]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[customizeResourceChoice]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceChoiceCondition]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceSelectionMode]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceRating]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceComparison]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[enableTimeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[timeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[enablePreemption]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[forceStatisticsCollection]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpUsageState]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExitTimeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExitPreempted]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onSeizeUnit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnterDelay]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onAtExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onTaskTerminated]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onTaskSuspended]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onTaskResumed]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onRemove]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+					<XCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</XCode>
+					<YCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</YCode>
+					<ZCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ZCode>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LatitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LatitudeCode>
+					<LongitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LongitudeCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
 			</EmbeddedObjects>
 
 			<Presentation>
@@ -2827,7 +3039,7 @@ Samet CAN--------------150120528]]></Text>
 				<Path>
 					<Id>1672552288216</Id>
 					<Name><![CDATA[OutsideQueuePAth]]></Name>
-					<X>100</X><Y>580</Y>
+					<X>30</X><Y>590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2884,7 +3096,7 @@ Samet CAN--------------150120528]]></Text>
 				<Path>
 					<Id>1672552357680</Id>
 					<Name><![CDATA[InsideQueuePath]]></Name>
-					<X>120</X><Y>470</Y>
+					<X>80</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2904,15 +3116,15 @@ Samet CAN--------------150120528]]></Text>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>120</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>95</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>145</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>150</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>125</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>175</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>210</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>185</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>185</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>230</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>205</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>255</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>260</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>235</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>285</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>320</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>295</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>295</X><Y>0</Y><Z>0</Z></Point>
 					</Points>
 					<Bidirectional>true</Bidirectional>
 					<SpeedLimit>false</SpeedLimit>
@@ -2941,7 +3153,7 @@ Samet CAN--------------150120528]]></Text>
 				<Path>
 					<Id>1672552604186</Id>
 					<Name><![CDATA[InsideQueuePath2]]></Name>
-					<X>150</X><Y>500</Y>
+					<X>80</X><Y>490</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2961,15 +3173,15 @@ Samet CAN--------------150120528]]></Text>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>17.8</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>80</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>55</Y><Z>0</Z></Point>
-						<Point><X>24.897</X><Y>77.737</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>70</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>45</Y><Z>0</Z></Point>
+						<Point><X>25</X><Y>70</Y><Z>0</Z></Point>
 						<Point><X>110</X><Y>70</Y><Z>0</Z></Point>
-						<Point><X>85.103</X><Y>72.263</Y><Z>0</Z></Point>
-						<Point><X>134.515</X><Y>65.097</Y><Z>0</Z></Point>
-						<Point><X>160</X><Y>60</Y><Z>0</Z></Point>
-						<Point><X>135.485</X><Y>64.903</Y><Z>0</Z></Point>
-						<Point><X>160</X><Y>60</Y><Z>0</Z></Point>
+						<Point><X>85</X><Y>70</Y><Z>0</Z></Point>
+						<Point><X>135</X><Y>70</Y><Z>0</Z></Point>
+						<Point><X>320</X><Y>70</Y><Z>0</Z></Point>
+						<Point><X>295</X><Y>70</Y><Z>0</Z></Point>
+						<Point><X>320</X><Y>70</Y><Z>0</Z></Point>
 					</Points>
 					<Bidirectional>true</Bidirectional>
 					<SpeedLimit>false</SpeedLimit>
@@ -2998,7 +3210,7 @@ Samet CAN--------------150120528]]></Text>
 				<Path>
 					<Id>1672552615908</Id>
 					<Name><![CDATA[PersonnelQueuePath]]></Name>
-					<X>240</X><Y>450</Y>
+					<X>350</X><Y>450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3018,15 +3230,15 @@ Samet CAN--------------150120528]]></Text>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>12.5</X><Y>-21.651</Y><Z>0</Z></Point>
 						<Point><X>-25</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>-100</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>-75</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>-100</X><Y>-25</Y><Z>0</Z></Point>
-						<Point><X>-100</X><Y>-60</Y><Z>0</Z></Point>
-						<Point><X>-100</X><Y>-35</Y><Z>0</Z></Point>
-						<Point><X>-75</X><Y>-60</Y><Z>0</Z></Point>
-						<Point><X>-10</X><Y>-60</Y><Z>0</Z></Point>
-						<Point><X>-35</X><Y>-60</Y><Z>0</Z></Point>
-						<Point><X>2.5</X><Y>-81.651</Y><Z>0</Z></Point>
+						<Point><X>-185</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-160</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-185</X><Y>-25</Y><Z>0</Z></Point>
+						<Point><X>-185</X><Y>-60</Y><Z>0</Z></Point>
+						<Point><X>-185</X><Y>-35</Y><Z>0</Z></Point>
+						<Point><X>-160</X><Y>-60</Y><Z>0</Z></Point>
+						<Point><X>-70</X><Y>-60</Y><Z>0</Z></Point>
+						<Point><X>-95</X><Y>-60</Y><Z>0</Z></Point>
+						<Point><X>-57.5</X><Y>-81.651</Y><Z>0</Z></Point>
 					</Points>
 					<Bidirectional>true</Bidirectional>
 					<SpeedLimit>false</SpeedLimit>
@@ -3057,7 +3269,7 @@ Samet CAN--------------150120528]]></Text>
 				<RectangleNode>
 					<Id>1672553358526</Id>
 					<Name><![CDATA[node]]></Name>
-					<X>390</X><Y>370</Y>
+					<X>460</X><Y>370</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3555,6 +3767,18 @@ Samet CAN--------------150120528]]></Text>
 					<Z>0</Z>
 					<Rotation>180.0</Rotation>	
 				</Attractor>
+				<Attractor>
+					<Id>1672579875856</Id>
+					<Name><![CDATA[attractor32]]></Name>
+					<X>72</X><Y>32</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Rotation>180.0</Rotation>	
+				</Attractor>
 			</Presentation>
 
 					<Sloped>false</Sloped>
@@ -3580,7 +3804,7 @@ Samet CAN--------------150120528]]></Text>
 				<Wall>
 					<Id>1672553847455</Id>
 					<Name><![CDATA[wall]]></Name>
-					<X>110</X><Y>450</Y>
+					<X>50</X><Y>450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3600,33 +3824,39 @@ Samet CAN--------------150120528]]></Text>
 						<Point><X>0</X><Y>140</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>115</Y><Z>0</Z></Point>
 						<Point><X>25</X><Y>140</Y><Z>0</Z></Point>
-						<Point><X>680</X><Y>140</Y><Z>0</Z></Point>
-						<Point><X>655</X><Y>140</Y><Z>0</Z></Point>
-						<Point><X>680</X><Y>115</Y><Z>0</Z></Point>
-						<Point><X>680</X><Y>-30</Y><Z>0</Z></Point>
-						<Point><X>680</X><Y>-5</Y><Z>0</Z></Point>
-						<Point><X>680</X><Y>-45</Y><Z>0</Z></Point>
-						<Point><X>550</X><Y>-100</Y><Z>0</Z></Point>
-						<Point><X>565</X><Y>-100</Y><Z>0</Z></Point>
-						<Point><X>525</X><Y>-100</Y><Z>0</Z></Point>
+						<Point><X>130</X><Y>140</Y><Z>0</Z></Point>
+						<Point><X>105</X><Y>140</Y><Z>0</Z></Point>
+						<Point><X>155</X><Y>140</Y><Z>0</Z></Point>
+						<Point><X>810</X><Y>140</Y><Z>0</Z></Point>
+						<Point><X>785</X><Y>140</Y><Z>0</Z></Point>
+						<Point><X>810</X><Y>115</Y><Z>0</Z></Point>
+						<Point><X>810</X><Y>-30</Y><Z>0</Z></Point>
+						<Point><X>810</X><Y>-5</Y><Z>0</Z></Point>
+						<Point><X>810</X><Y>-45</Y><Z>0</Z></Point>
+						<Point><X>680</X><Y>-100</Y><Z>0</Z></Point>
+						<Point><X>695</X><Y>-100</Y><Z>0</Z></Point>
+						<Point><X>655</X><Y>-100</Y><Z>0</Z></Point>
+						<Point><X>130</X><Y>-100</Y><Z>0</Z></Point>
+						<Point><X>155</X><Y>-100</Y><Z>0</Z></Point>
+						<Point><X>105</X><Y>-100</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>-100</Y><Z>0</Z></Point>
 						<Point><X>25</X><Y>-100</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>-75</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-20</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-45</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>20</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-40</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-65</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<Figure3D>
 					<Id>1672553960165</Id>
 					<Name><![CDATA[worker]]></Name>
-					<X>240</X><Y>360</Y>
+					<X>310</X><Y>360</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>240</X><Y>360</Y><Z>0</Z>
+					<X>310</X><Y>360</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -3669,13 +3899,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672554008558</Id>
 					<Name><![CDATA[table]]></Name>
-					<X>240</X><Y>370</Y>
+					<X>310</X><Y>370</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>240</X><Y>370</Y><Z>0</Z>
+					<X>310</X><Y>370</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -3702,13 +3932,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672554025054</Id>
 					<Name><![CDATA[table1]]></Name>
-					<X>370.5</X><Y>470.5</Y>
+					<X>440.5</X><Y>470.5</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>370.5</X><Y>470.5</Y><Z>0</Z>
+					<X>440.5</X><Y>470.5</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -3735,7 +3965,7 @@ Samet CAN--------------150120528]]></Text>
 				<PointNode>
 					<Id>1672554267405</Id>
 					<Name><![CDATA[node1]]></Name>
-					<X>240</X><Y>380</Y>
+					<X>310</X><Y>380</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3755,7 +3985,7 @@ Samet CAN--------------150120528]]></Text>
 				<PointNode>
 					<Id>1672554280941</Id>
 					<Name><![CDATA[node2]]></Name>
-					<X>360</X><Y>470</Y>
+					<X>430</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3775,7 +4005,7 @@ Samet CAN--------------150120528]]></Text>
 				<PointNode>
 					<Id>1672554298831</Id>
 					<Name><![CDATA[node3]]></Name>
-					<X>350</X><Y>560</Y>
+					<X>420</X><Y>560</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4540,13 +4770,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507150</Id>
 					<Name><![CDATA[chair91]]></Name>
-					<X>420.464</X><Y>462.021</Y>
+					<X>490.464</X><Y>462.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>420.464</X><Y>462.021</Y><Z>0</Z>
+					<X>490.464</X><Y>462.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -4569,13 +4799,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507162</Id>
 					<Name><![CDATA[chair92]]></Name>
-					<X>421</X><Y>383</Y>
+					<X>491</X><Y>383</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>421</X><Y>383</Y><Z>0</Z>
+					<X>491</X><Y>383</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -4598,13 +4828,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507173</Id>
 					<Name><![CDATA[chair93]]></Name>
-					<X>400.464</X><Y>442.021</Y>
+					<X>470.464</X><Y>442.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>400.464</X><Y>442.021</Y><Z>0</Z>
+					<X>470.464</X><Y>442.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -4627,13 +4857,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507183</Id>
 					<Name><![CDATA[chair94]]></Name>
-					<X>421</X><Y>423</Y>
+					<X>491</X><Y>423</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>421</X><Y>423</Y><Z>0</Z>
+					<X>491</X><Y>423</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -4656,13 +4886,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507194</Id>
 					<Name><![CDATA[chair95]]></Name>
-					<X>420.935</X><Y>523.745</Y>
+					<X>490.935</X><Y>523.745</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>420.935</X><Y>523.745</Y><Z>0</Z>
+					<X>490.935</X><Y>523.745</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -4685,13 +4915,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507204</Id>
 					<Name><![CDATA[chair96]]></Name>
-					<X>420.935</X><Y>441.191</Y>
+					<X>490.935</X><Y>441.191</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>420.935</X><Y>441.191</Y><Z>0</Z>
+					<X>490.935</X><Y>441.191</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -4714,13 +4944,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507214</Id>
 					<Name><![CDATA[chair97]]></Name>
-					<X>400.529</X><Y>462.553</Y>
+					<X>470.529</X><Y>462.553</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>400.529</X><Y>462.553</Y><Z>0</Z>
+					<X>470.529</X><Y>462.553</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -4743,13 +4973,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507224</Id>
 					<Name><![CDATA[chair98]]></Name>
-					<X>400</X><Y>380</Y>
+					<X>470</X><Y>380</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>400</X><Y>380</Y><Z>0</Z>
+					<X>470</X><Y>380</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -4772,13 +5002,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507234</Id>
 					<Name><![CDATA[chair99]]></Name>
-					<X>400.464</X><Y>542.021</Y>
+					<X>470.464</X><Y>542.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>400.464</X><Y>542.021</Y><Z>0</Z>
+					<X>470.464</X><Y>542.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -4801,13 +5031,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507244</Id>
 					<Name><![CDATA[table_32]]></Name>
-					<X>410.464</X><Y>392.021</Y>
+					<X>480.464</X><Y>392.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>410.464</X><Y>392.021</Y><Z>0</Z>
+					<X>480.464</X><Y>392.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -4834,13 +5064,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507255</Id>
 					<Name><![CDATA[chair100]]></Name>
-					<X>420.464</X><Y>502.021</Y>
+					<X>490.464</X><Y>502.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>420.464</X><Y>502.021</Y><Z>0</Z>
+					<X>490.464</X><Y>502.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -4863,13 +5093,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507265</Id>
 					<Name><![CDATA[chair101]]></Name>
-					<X>400.464</X><Y>402.021</Y>
+					<X>470.464</X><Y>402.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>400.464</X><Y>402.021</Y><Z>0</Z>
+					<X>470.464</X><Y>402.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -4892,13 +5122,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507275</Id>
 					<Name><![CDATA[table_33]]></Name>
-					<X>410.464</X><Y>472.021</Y>
+					<X>480.464</X><Y>472.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>410.464</X><Y>472.021</Y><Z>0</Z>
+					<X>480.464</X><Y>472.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -4925,13 +5155,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507286</Id>
 					<Name><![CDATA[chair102]]></Name>
-					<X>400.464</X><Y>482.021</Y>
+					<X>470.464</X><Y>482.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>400.464</X><Y>482.021</Y><Z>0</Z>
+					<X>470.464</X><Y>482.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -4954,13 +5184,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507302</Id>
 					<Name><![CDATA[table_34]]></Name>
-					<X>410.464</X><Y>432.021</Y>
+					<X>480.464</X><Y>432.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>410.464</X><Y>432.021</Y><Z>0</Z>
+					<X>480.464</X><Y>432.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -4987,13 +5217,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507314</Id>
 					<Name><![CDATA[chair103]]></Name>
-					<X>420.935</X><Y>482.468</Y>
+					<X>490.935</X><Y>482.468</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>420.935</X><Y>482.468</Y><Z>0</Z>
+					<X>490.935</X><Y>482.468</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5016,13 +5246,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507324</Id>
 					<Name><![CDATA[chair104]]></Name>
-					<X>400.464</X><Y>522.021</Y>
+					<X>470.464</X><Y>522.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>400.464</X><Y>522.021</Y><Z>0</Z>
+					<X>470.464</X><Y>522.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5045,13 +5275,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507335</Id>
 					<Name><![CDATA[chair105]]></Name>
-					<X>400.464</X><Y>562.021</Y>
+					<X>470.464</X><Y>562.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>400.464</X><Y>562.021</Y><Z>0</Z>
+					<X>470.464</X><Y>562.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5074,13 +5304,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507345</Id>
 					<Name><![CDATA[chair106]]></Name>
-					<X>400.529</X><Y>503.83</Y>
+					<X>470.529</X><Y>503.83</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>400.529</X><Y>503.83</Y><Z>0</Z>
+					<X>470.529</X><Y>503.83</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5103,13 +5333,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507355</Id>
 					<Name><![CDATA[chair107]]></Name>
-					<X>420.464</X><Y>562.021</Y>
+					<X>490.464</X><Y>562.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>420.464</X><Y>562.021</Y><Z>0</Z>
+					<X>490.464</X><Y>562.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5132,13 +5362,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507365</Id>
 					<Name><![CDATA[chair108]]></Name>
-					<X>400.529</X><Y>421.276</Y>
+					<X>470.529</X><Y>421.276</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>400.529</X><Y>421.276</Y><Z>0</Z>
+					<X>470.529</X><Y>421.276</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5161,13 +5391,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507375</Id>
 					<Name><![CDATA[chair109]]></Name>
-					<X>420.464</X><Y>542.021</Y>
+					<X>490.464</X><Y>542.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>420.464</X><Y>542.021</Y><Z>0</Z>
+					<X>490.464</X><Y>542.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5190,13 +5420,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507386</Id>
 					<Name><![CDATA[chair110]]></Name>
-					<X>421</X><Y>403</Y>
+					<X>491</X><Y>403</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>421</X><Y>403</Y><Z>0</Z>
+					<X>491</X><Y>403</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5219,13 +5449,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507396</Id>
 					<Name><![CDATA[table_35]]></Name>
-					<X>410.464</X><Y>512.021</Y>
+					<X>480.464</X><Y>512.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>410.464</X><Y>512.021</Y><Z>0</Z>
+					<X>480.464</X><Y>512.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5252,13 +5482,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555507406</Id>
 					<Name><![CDATA[table_36]]></Name>
-					<X>410.464</X><Y>552.021</Y>
+					<X>480.464</X><Y>552.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>410.464</X><Y>552.021</Y><Z>0</Z>
+					<X>480.464</X><Y>552.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5285,13 +5515,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512711</Id>
 					<Name><![CDATA[chair111]]></Name>
-					<X>460.464</X><Y>462.021</Y>
+					<X>530.464</X><Y>462.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>460.464</X><Y>462.021</Y><Z>0</Z>
+					<X>530.464</X><Y>462.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5314,13 +5544,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512723</Id>
 					<Name><![CDATA[chair112]]></Name>
-					<X>461</X><Y>383</Y>
+					<X>531</X><Y>383</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>461</X><Y>383</Y><Z>0</Z>
+					<X>531</X><Y>383</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5343,13 +5573,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512733</Id>
 					<Name><![CDATA[chair113]]></Name>
-					<X>440.464</X><Y>442.021</Y>
+					<X>510.464</X><Y>442.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>440.464</X><Y>442.021</Y><Z>0</Z>
+					<X>510.464</X><Y>442.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5372,13 +5602,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512743</Id>
 					<Name><![CDATA[chair114]]></Name>
-					<X>461</X><Y>423</Y>
+					<X>531</X><Y>422</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>461</X><Y>423</Y><Z>0</Z>
+					<X>531</X><Y>422</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5401,13 +5631,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512754</Id>
 					<Name><![CDATA[chair115]]></Name>
-					<X>460.935</X><Y>523.745</Y>
+					<X>530.935</X><Y>523.745</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>460.935</X><Y>523.745</Y><Z>0</Z>
+					<X>530.935</X><Y>523.745</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5430,13 +5660,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512764</Id>
 					<Name><![CDATA[chair116]]></Name>
-					<X>460.935</X><Y>441.191</Y>
+					<X>530.935</X><Y>441.191</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>460.935</X><Y>441.191</Y><Z>0</Z>
+					<X>530.935</X><Y>441.191</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5459,13 +5689,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512774</Id>
 					<Name><![CDATA[chair117]]></Name>
-					<X>440.529</X><Y>462.553</Y>
+					<X>510.529</X><Y>462.553</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>440.529</X><Y>462.553</Y><Z>0</Z>
+					<X>510.529</X><Y>462.553</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5488,13 +5718,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512784</Id>
 					<Name><![CDATA[chair118]]></Name>
-					<X>440</X><Y>380</Y>
+					<X>510</X><Y>380</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>440</X><Y>380</Y><Z>0</Z>
+					<X>510</X><Y>380</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5517,13 +5747,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512793</Id>
 					<Name><![CDATA[chair119]]></Name>
-					<X>440.464</X><Y>542.021</Y>
+					<X>510.464</X><Y>542.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>440.464</X><Y>542.021</Y><Z>0</Z>
+					<X>510.464</X><Y>542.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5546,13 +5776,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512803</Id>
 					<Name><![CDATA[table_37]]></Name>
-					<X>450.464</X><Y>392.021</Y>
+					<X>520.464</X><Y>392.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>450.464</X><Y>392.021</Y><Z>0</Z>
+					<X>520.464</X><Y>392.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5579,13 +5809,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512813</Id>
 					<Name><![CDATA[chair120]]></Name>
-					<X>460.464</X><Y>502.021</Y>
+					<X>530.464</X><Y>502.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>460.464</X><Y>502.021</Y><Z>0</Z>
+					<X>530.464</X><Y>502.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5608,13 +5838,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512823</Id>
 					<Name><![CDATA[chair121]]></Name>
-					<X>440.464</X><Y>402.021</Y>
+					<X>510.464</X><Y>402.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>440.464</X><Y>402.021</Y><Z>0</Z>
+					<X>510.464</X><Y>402.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5637,13 +5867,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512833</Id>
 					<Name><![CDATA[table_38]]></Name>
-					<X>450.464</X><Y>472.021</Y>
+					<X>520.464</X><Y>472.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>450.464</X><Y>472.021</Y><Z>0</Z>
+					<X>520.464</X><Y>472.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5670,13 +5900,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512844</Id>
 					<Name><![CDATA[chair122]]></Name>
-					<X>440.464</X><Y>482.021</Y>
+					<X>510.464</X><Y>482.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>440.464</X><Y>482.021</Y><Z>0</Z>
+					<X>510.464</X><Y>482.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5699,13 +5929,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512854</Id>
 					<Name><![CDATA[table_39]]></Name>
-					<X>450.464</X><Y>432.021</Y>
+					<X>520.464</X><Y>432.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>450.464</X><Y>432.021</Y><Z>0</Z>
+					<X>520.464</X><Y>432.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5732,13 +5962,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512865</Id>
 					<Name><![CDATA[chair123]]></Name>
-					<X>460.935</X><Y>482.468</Y>
+					<X>530.935</X><Y>482.468</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>460.935</X><Y>482.468</Y><Z>0</Z>
+					<X>530.935</X><Y>482.468</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5761,13 +5991,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512875</Id>
 					<Name><![CDATA[chair124]]></Name>
-					<X>440.464</X><Y>522.021</Y>
+					<X>510.464</X><Y>522.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>440.464</X><Y>522.021</Y><Z>0</Z>
+					<X>510.464</X><Y>522.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5790,13 +6020,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512886</Id>
 					<Name><![CDATA[chair125]]></Name>
-					<X>440.464</X><Y>562.021</Y>
+					<X>510.464</X><Y>562.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>440.464</X><Y>562.021</Y><Z>0</Z>
+					<X>510.464</X><Y>562.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5819,13 +6049,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512896</Id>
 					<Name><![CDATA[chair126]]></Name>
-					<X>440.529</X><Y>503.83</Y>
+					<X>510.529</X><Y>503.83</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>440.529</X><Y>503.83</Y><Z>0</Z>
+					<X>510.529</X><Y>503.83</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5848,13 +6078,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512907</Id>
 					<Name><![CDATA[chair127]]></Name>
-					<X>460.464</X><Y>562.021</Y>
+					<X>530.464</X><Y>562.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>460.464</X><Y>562.021</Y><Z>0</Z>
+					<X>530.464</X><Y>562.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5877,13 +6107,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512918</Id>
 					<Name><![CDATA[chair128]]></Name>
-					<X>440.529</X><Y>421.276</Y>
+					<X>510.529</X><Y>421.276</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>440.529</X><Y>421.276</Y><Z>0</Z>
+					<X>510.529</X><Y>421.276</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5906,13 +6136,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512928</Id>
 					<Name><![CDATA[chair129]]></Name>
-					<X>460.464</X><Y>542.021</Y>
+					<X>530.464</X><Y>542.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>460.464</X><Y>542.021</Y><Z>0</Z>
+					<X>530.464</X><Y>542.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5935,13 +6165,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512939</Id>
 					<Name><![CDATA[chair130]]></Name>
-					<X>461</X><Y>403</Y>
+					<X>531</X><Y>403</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>461</X><Y>403</Y><Z>0</Z>
+					<X>531</X><Y>403</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5964,13 +6194,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512949</Id>
 					<Name><![CDATA[table_40]]></Name>
-					<X>450.464</X><Y>512.021</Y>
+					<X>520.464</X><Y>512.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>450.464</X><Y>512.021</Y><Z>0</Z>
+					<X>520.464</X><Y>512.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -5997,13 +6227,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555512960</Id>
 					<Name><![CDATA[table_41]]></Name>
-					<X>450.464</X><Y>552.021</Y>
+					<X>520.464</X><Y>552.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>450.464</X><Y>552.021</Y><Z>0</Z>
+					<X>520.464</X><Y>552.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6030,13 +6260,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555521895</Id>
 					<Name><![CDATA[table_42]]></Name>
-					<X>490.464</X><Y>392.021</Y>
+					<X>560.464</X><Y>392.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>490.464</X><Y>392.021</Y><Z>0</Z>
+					<X>560.464</X><Y>392.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6063,13 +6293,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555521907</Id>
 					<Name><![CDATA[chair131]]></Name>
-					<X>501</X><Y>383</Y>
+					<X>571</X><Y>383</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>501</X><Y>383</Y><Z>0</Z>
+					<X>571</X><Y>383</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6092,13 +6322,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555521917</Id>
 					<Name><![CDATA[table_43]]></Name>
-					<X>490.464</X><Y>472.021</Y>
+					<X>560.464</X><Y>472.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>490.464</X><Y>472.021</Y><Z>0</Z>
+					<X>560.464</X><Y>472.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6125,13 +6355,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555521929</Id>
 					<Name><![CDATA[chair132]]></Name>
-					<X>480.529</X><Y>503.83</Y>
+					<X>550.529</X><Y>503.83</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>480.529</X><Y>503.83</Y><Z>0</Z>
+					<X>550.529</X><Y>503.83</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6154,13 +6384,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555521940</Id>
 					<Name><![CDATA[chair133]]></Name>
-					<X>520.464</X><Y>522.021</Y>
+					<X>590.464</X><Y>522.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>520.464</X><Y>522.021</Y><Z>0</Z>
+					<X>590.464</X><Y>522.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6183,13 +6413,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555521950</Id>
 					<Name><![CDATA[table_44]]></Name>
-					<X>530.464</X><Y>512.021</Y>
+					<X>600.464</X><Y>512.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>530.464</X><Y>512.021</Y><Z>0</Z>
+					<X>600.464</X><Y>512.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6216,13 +6446,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555521960</Id>
 					<Name><![CDATA[chair134]]></Name>
-					<X>500.464</X><Y>462.021</Y>
+					<X>570.464</X><Y>462.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>500.464</X><Y>462.021</Y><Z>0</Z>
+					<X>570.464</X><Y>462.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6245,13 +6475,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555521970</Id>
 					<Name><![CDATA[chair135]]></Name>
-					<X>520.464</X><Y>442.021</Y>
+					<X>590.464</X><Y>442.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>520.464</X><Y>442.021</Y><Z>0</Z>
+					<X>590.464</X><Y>442.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6274,13 +6504,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555521979</Id>
 					<Name><![CDATA[chair136]]></Name>
-					<X>540.464</X><Y>462.021</Y>
+					<X>610.464</X><Y>462.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>540.464</X><Y>462.021</Y><Z>0</Z>
+					<X>610.464</X><Y>462.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6303,13 +6533,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555521989</Id>
 					<Name><![CDATA[chair137]]></Name>
-					<X>480.464</X><Y>402.021</Y>
+					<X>550.464</X><Y>402.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>480.464</X><Y>402.021</Y><Z>0</Z>
+					<X>550.464</X><Y>402.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6332,13 +6562,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522000</Id>
 					<Name><![CDATA[chair138]]></Name>
-					<X>541</X><Y>383</Y>
+					<X>611</X><Y>383</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>541</X><Y>383</Y><Z>0</Z>
+					<X>611</X><Y>383</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6361,13 +6591,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522010</Id>
 					<Name><![CDATA[chair139]]></Name>
-					<X>541</X><Y>403</Y>
+					<X>611</X><Y>403</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>541</X><Y>403</Y><Z>0</Z>
+					<X>611</X><Y>403</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6390,13 +6620,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522021</Id>
 					<Name><![CDATA[table_45]]></Name>
-					<X>530.464</X><Y>432.021</Y>
+					<X>600.464</X><Y>432.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>530.464</X><Y>432.021</Y><Z>0</Z>
+					<X>600.464</X><Y>432.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6423,13 +6653,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522031</Id>
 					<Name><![CDATA[chair140]]></Name>
-					<X>520.464</X><Y>542.021</Y>
+					<X>590.464</X><Y>542.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>520.464</X><Y>542.021</Y><Z>0</Z>
+					<X>590.464</X><Y>542.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6452,13 +6682,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522041</Id>
 					<Name><![CDATA[chair141]]></Name>
-					<X>520.529</X><Y>421.276</Y>
+					<X>590.529</X><Y>421.276</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>520.529</X><Y>421.276</Y><Z>0</Z>
+					<X>590.529</X><Y>421.276</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6481,13 +6711,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522052</Id>
 					<Name><![CDATA[chair142]]></Name>
-					<X>480.529</X><Y>421.276</Y>
+					<X>550.529</X><Y>421.276</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>480.529</X><Y>421.276</Y><Z>0</Z>
+					<X>550.529</X><Y>421.276</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6510,13 +6740,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522062</Id>
 					<Name><![CDATA[chair143]]></Name>
-					<X>480</X><Y>380</Y>
+					<X>550</X><Y>380</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>480</X><Y>380</Y><Z>0</Z>
+					<X>550</X><Y>380</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6539,13 +6769,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522072</Id>
 					<Name><![CDATA[table_46]]></Name>
-					<X>490.464</X><Y>512.021</Y>
+					<X>560.464</X><Y>512.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>490.464</X><Y>512.021</Y><Z>0</Z>
+					<X>560.464</X><Y>512.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6572,13 +6802,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522082</Id>
 					<Name><![CDATA[chair144]]></Name>
-					<X>540.935</X><Y>441.191</Y>
+					<X>610.935</X><Y>441.191</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>540.935</X><Y>441.191</Y><Z>0</Z>
+					<X>610.935</X><Y>441.191</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6601,13 +6831,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522092</Id>
 					<Name><![CDATA[chair145]]></Name>
-					<X>540.464</X><Y>502.021</Y>
+					<X>610.464</X><Y>502.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>540.464</X><Y>502.021</Y><Z>0</Z>
+					<X>610.464</X><Y>502.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6630,13 +6860,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522102</Id>
 					<Name><![CDATA[chair146]]></Name>
-					<X>480.464</X><Y>522.021</Y>
+					<X>550.464</X><Y>522.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>480.464</X><Y>522.021</Y><Z>0</Z>
+					<X>550.464</X><Y>522.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6659,13 +6889,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522112</Id>
 					<Name><![CDATA[chair147]]></Name>
-					<X>480.464</X><Y>562.021</Y>
+					<X>550.464</X><Y>562.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>480.464</X><Y>562.021</Y><Z>0</Z>
+					<X>550.464</X><Y>562.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6688,13 +6918,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522123</Id>
 					<Name><![CDATA[chair148]]></Name>
-					<X>540.935</X><Y>482.468</Y>
+					<X>610.935</X><Y>482.468</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>540.935</X><Y>482.468</Y><Z>0</Z>
+					<X>610.935</X><Y>482.468</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6717,13 +6947,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522133</Id>
 					<Name><![CDATA[table_47]]></Name>
-					<X>490.464</X><Y>552.021</Y>
+					<X>560.464</X><Y>552.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>490.464</X><Y>552.021</Y><Z>0</Z>
+					<X>560.464</X><Y>552.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6750,13 +6980,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522144</Id>
 					<Name><![CDATA[chair149]]></Name>
-					<X>480.464</X><Y>442.021</Y>
+					<X>550.464</X><Y>442.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>480.464</X><Y>442.021</Y><Z>0</Z>
+					<X>550.464</X><Y>442.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6779,13 +7009,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522153</Id>
 					<Name><![CDATA[chair150]]></Name>
-					<X>501</X><Y>403</Y>
+					<X>571</X><Y>403</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>501</X><Y>403</Y><Z>0</Z>
+					<X>571</X><Y>403</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6808,13 +7038,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522163</Id>
 					<Name><![CDATA[chair151]]></Name>
-					<X>501</X><Y>423</Y>
+					<X>571</X><Y>423</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>501</X><Y>423</Y><Z>0</Z>
+					<X>571</X><Y>423</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6837,13 +7067,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522174</Id>
 					<Name><![CDATA[chair152]]></Name>
-					<X>540.935</X><Y>523.745</Y>
+					<X>610.935</X><Y>523.745</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>540.935</X><Y>523.745</Y><Z>0</Z>
+					<X>610.935</X><Y>523.745</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6866,13 +7096,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522184</Id>
 					<Name><![CDATA[chair153]]></Name>
-					<X>500.935</X><Y>482.468</Y>
+					<X>570.935</X><Y>482.468</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>500.935</X><Y>482.468</Y><Z>0</Z>
+					<X>570.935</X><Y>482.468</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6895,13 +7125,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522195</Id>
 					<Name><![CDATA[chair154]]></Name>
-					<X>500.464</X><Y>542.021</Y>
+					<X>570.464</X><Y>542.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>500.464</X><Y>542.021</Y><Z>0</Z>
+					<X>570.464</X><Y>542.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6924,13 +7154,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522205</Id>
 					<Name><![CDATA[chair155]]></Name>
-					<X>480.464</X><Y>482.021</Y>
+					<X>550.464</X><Y>482.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>480.464</X><Y>482.021</Y><Z>0</Z>
+					<X>550.464</X><Y>482.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6953,13 +7183,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522217</Id>
 					<Name><![CDATA[chair156]]></Name>
-					<X>520.464</X><Y>402.021</Y>
+					<X>590.464</X><Y>402.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>520.464</X><Y>402.021</Y><Z>0</Z>
+					<X>590.464</X><Y>402.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -6982,13 +7212,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522227</Id>
 					<Name><![CDATA[chair157]]></Name>
-					<X>541</X><Y>423</Y>
+					<X>611</X><Y>423</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>541</X><Y>423</Y><Z>0</Z>
+					<X>611</X><Y>423</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7011,13 +7241,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522237</Id>
 					<Name><![CDATA[chair158]]></Name>
-					<X>500.935</X><Y>441.191</Y>
+					<X>570.935</X><Y>441.191</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>500.935</X><Y>441.191</Y><Z>0</Z>
+					<X>570.935</X><Y>441.191</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7040,13 +7270,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522248</Id>
 					<Name><![CDATA[chair159]]></Name>
-					<X>500.464</X><Y>502.021</Y>
+					<X>570.464</X><Y>502.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>500.464</X><Y>502.021</Y><Z>0</Z>
+					<X>570.464</X><Y>502.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7069,13 +7299,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522259</Id>
 					<Name><![CDATA[chair160]]></Name>
-					<X>520.464</X><Y>562.021</Y>
+					<X>590.464</X><Y>562.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>520.464</X><Y>562.021</Y><Z>0</Z>
+					<X>590.464</X><Y>562.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7098,13 +7328,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522269</Id>
 					<Name><![CDATA[chair161]]></Name>
-					<X>520</X><Y>380</Y>
+					<X>590</X><Y>380</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>520</X><Y>380</Y><Z>0</Z>
+					<X>590</X><Y>380</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7127,13 +7357,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522279</Id>
 					<Name><![CDATA[chair162]]></Name>
-					<X>500.935</X><Y>523.745</Y>
+					<X>570.935</X><Y>523.745</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>500.935</X><Y>523.745</Y><Z>0</Z>
+					<X>570.935</X><Y>523.745</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7156,13 +7386,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522290</Id>
 					<Name><![CDATA[chair163]]></Name>
-					<X>520.529</X><Y>503.83</Y>
+					<X>590.529</X><Y>503.83</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>520.529</X><Y>503.83</Y><Z>0</Z>
+					<X>590.529</X><Y>503.83</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7185,13 +7415,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522300</Id>
 					<Name><![CDATA[chair164]]></Name>
-					<X>480.464</X><Y>542.021</Y>
+					<X>550.464</X><Y>542.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>480.464</X><Y>542.021</Y><Z>0</Z>
+					<X>550.464</X><Y>542.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7214,13 +7444,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522310</Id>
 					<Name><![CDATA[table_48]]></Name>
-					<X>530.464</X><Y>472.021</Y>
+					<X>600.464</X><Y>472.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>530.464</X><Y>472.021</Y><Z>0</Z>
+					<X>600.464</X><Y>472.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7247,13 +7477,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522322</Id>
 					<Name><![CDATA[chair165]]></Name>
-					<X>520.529</X><Y>462.553</Y>
+					<X>590.529</X><Y>462.553</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>520.529</X><Y>462.553</Y><Z>0</Z>
+					<X>590.529</X><Y>462.553</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7276,13 +7506,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522333</Id>
 					<Name><![CDATA[chair166]]></Name>
-					<X>540.464</X><Y>542.021</Y>
+					<X>610.464</X><Y>542.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>540.464</X><Y>542.021</Y><Z>0</Z>
+					<X>610.464</X><Y>542.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7305,13 +7535,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522344</Id>
 					<Name><![CDATA[chair167]]></Name>
-					<X>520.464</X><Y>482.021</Y>
+					<X>590.464</X><Y>482.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>520.464</X><Y>482.021</Y><Z>0</Z>
+					<X>590.464</X><Y>482.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7334,13 +7564,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522354</Id>
 					<Name><![CDATA[chair168]]></Name>
-					<X>540.464</X><Y>562.021</Y>
+					<X>610.464</X><Y>562.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>540.464</X><Y>562.021</Y><Z>0</Z>
+					<X>610.464</X><Y>562.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7363,13 +7593,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522365</Id>
 					<Name><![CDATA[chair169]]></Name>
-					<X>480.529</X><Y>462.553</Y>
+					<X>550.529</X><Y>462.553</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>480.529</X><Y>462.553</Y><Z>0</Z>
+					<X>550.529</X><Y>462.553</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7392,13 +7622,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522375</Id>
 					<Name><![CDATA[table_49]]></Name>
-					<X>530.464</X><Y>552.021</Y>
+					<X>600.464</X><Y>552.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>530.464</X><Y>552.021</Y><Z>0</Z>
+					<X>600.464</X><Y>552.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7425,13 +7655,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522386</Id>
 					<Name><![CDATA[table_50]]></Name>
-					<X>530.464</X><Y>392.021</Y>
+					<X>600.464</X><Y>392.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>530.464</X><Y>392.021</Y><Z>0</Z>
+					<X>600.464</X><Y>392.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7458,13 +7688,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522397</Id>
 					<Name><![CDATA[chair170]]></Name>
-					<X>500.464</X><Y>562.021</Y>
+					<X>570.464</X><Y>562.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>500.464</X><Y>562.021</Y><Z>0</Z>
+					<X>570.464</X><Y>562.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7487,13 +7717,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555522407</Id>
 					<Name><![CDATA[table_51]]></Name>
-					<X>490.464</X><Y>432.021</Y>
+					<X>560.464</X><Y>432.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>490.464</X><Y>432.021</Y><Z>0</Z>
+					<X>560.464</X><Y>432.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7520,13 +7750,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527749</Id>
 					<Name><![CDATA[table_52]]></Name>
-					<X>570.464</X><Y>392.021</Y>
+					<X>640.464</X><Y>392.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>570.464</X><Y>392.021</Y><Z>0</Z>
+					<X>640.464</X><Y>392.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7553,13 +7783,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527762</Id>
 					<Name><![CDATA[chair171]]></Name>
-					<X>581</X><Y>383</Y>
+					<X>651</X><Y>383</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>581</X><Y>383</Y><Z>0</Z>
+					<X>651</X><Y>383</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7582,13 +7812,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527773</Id>
 					<Name><![CDATA[table_53]]></Name>
-					<X>570.464</X><Y>472.021</Y>
+					<X>640.464</X><Y>472.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>570.464</X><Y>472.021</Y><Z>0</Z>
+					<X>640.464</X><Y>472.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7615,13 +7845,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527784</Id>
 					<Name><![CDATA[chair172]]></Name>
-					<X>560.529</X><Y>503.83</Y>
+					<X>630.529</X><Y>503.83</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>560.529</X><Y>503.83</Y><Z>0</Z>
+					<X>630.529</X><Y>503.83</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7644,13 +7874,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527795</Id>
 					<Name><![CDATA[chair173]]></Name>
-					<X>600.464</X><Y>522.021</Y>
+					<X>670.464</X><Y>522.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>600.464</X><Y>522.021</Y><Z>0</Z>
+					<X>670.464</X><Y>522.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7673,13 +7903,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527806</Id>
 					<Name><![CDATA[table_54]]></Name>
-					<X>610.464</X><Y>512.021</Y>
+					<X>680.464</X><Y>512.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>610.464</X><Y>512.021</Y><Z>0</Z>
+					<X>680.464</X><Y>512.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7706,13 +7936,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527816</Id>
 					<Name><![CDATA[chair174]]></Name>
-					<X>580.464</X><Y>462.021</Y>
+					<X>650.464</X><Y>462.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>580.464</X><Y>462.021</Y><Z>0</Z>
+					<X>650.464</X><Y>462.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7735,13 +7965,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527827</Id>
 					<Name><![CDATA[chair175]]></Name>
-					<X>600.464</X><Y>442.021</Y>
+					<X>670.464</X><Y>442.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>600.464</X><Y>442.021</Y><Z>0</Z>
+					<X>670.464</X><Y>442.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7764,13 +7994,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527837</Id>
 					<Name><![CDATA[chair176]]></Name>
-					<X>620.464</X><Y>462.021</Y>
+					<X>690.464</X><Y>462.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>620.464</X><Y>462.021</Y><Z>0</Z>
+					<X>690.464</X><Y>462.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7793,13 +8023,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527847</Id>
 					<Name><![CDATA[chair177]]></Name>
-					<X>560.464</X><Y>402.021</Y>
+					<X>630.464</X><Y>402.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>560.464</X><Y>402.021</Y><Z>0</Z>
+					<X>630.464</X><Y>402.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7822,13 +8052,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527857</Id>
 					<Name><![CDATA[chair178]]></Name>
-					<X>621</X><Y>383</Y>
+					<X>691</X><Y>383</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>621</X><Y>383</Y><Z>0</Z>
+					<X>691</X><Y>383</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7851,13 +8081,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527867</Id>
 					<Name><![CDATA[chair179]]></Name>
-					<X>621</X><Y>403</Y>
+					<X>691</X><Y>403</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>621</X><Y>403</Y><Z>0</Z>
+					<X>691</X><Y>403</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7880,13 +8110,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527878</Id>
 					<Name><![CDATA[table_55]]></Name>
-					<X>610.464</X><Y>432.021</Y>
+					<X>680.464</X><Y>432.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>610.464</X><Y>432.021</Y><Z>0</Z>
+					<X>680.464</X><Y>432.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7913,13 +8143,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527888</Id>
 					<Name><![CDATA[chair180]]></Name>
-					<X>600.464</X><Y>542.021</Y>
+					<X>670.464</X><Y>542.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>600.464</X><Y>542.021</Y><Z>0</Z>
+					<X>670.464</X><Y>542.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7942,13 +8172,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527898</Id>
 					<Name><![CDATA[chair181]]></Name>
-					<X>600.529</X><Y>421.276</Y>
+					<X>670.529</X><Y>421.276</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>600.529</X><Y>421.276</Y><Z>0</Z>
+					<X>670.529</X><Y>421.276</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -7971,13 +8201,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527909</Id>
 					<Name><![CDATA[chair182]]></Name>
-					<X>560.529</X><Y>421.276</Y>
+					<X>630.529</X><Y>421.276</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>560.529</X><Y>421.276</Y><Z>0</Z>
+					<X>630.529</X><Y>421.276</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8000,13 +8230,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527919</Id>
 					<Name><![CDATA[chair183]]></Name>
-					<X>560</X><Y>380</Y>
+					<X>630</X><Y>380</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>560</X><Y>380</Y><Z>0</Z>
+					<X>630</X><Y>380</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8029,13 +8259,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527928</Id>
 					<Name><![CDATA[table_56]]></Name>
-					<X>570.464</X><Y>512.021</Y>
+					<X>640.464</X><Y>512.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>570.464</X><Y>512.021</Y><Z>0</Z>
+					<X>640.464</X><Y>512.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8062,13 +8292,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527939</Id>
 					<Name><![CDATA[chair184]]></Name>
-					<X>620.935</X><Y>441.191</Y>
+					<X>690.935</X><Y>441.191</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>620.935</X><Y>441.191</Y><Z>0</Z>
+					<X>690.935</X><Y>441.191</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8091,13 +8321,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527950</Id>
 					<Name><![CDATA[chair185]]></Name>
-					<X>620.464</X><Y>502.021</Y>
+					<X>690.464</X><Y>502.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>620.464</X><Y>502.021</Y><Z>0</Z>
+					<X>690.464</X><Y>502.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8120,13 +8350,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527961</Id>
 					<Name><![CDATA[chair186]]></Name>
-					<X>560.464</X><Y>522.021</Y>
+					<X>630.464</X><Y>522.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>560.464</X><Y>522.021</Y><Z>0</Z>
+					<X>630.464</X><Y>522.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8149,13 +8379,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527971</Id>
 					<Name><![CDATA[chair187]]></Name>
-					<X>560.464</X><Y>562.021</Y>
+					<X>630.464</X><Y>562.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>560.464</X><Y>562.021</Y><Z>0</Z>
+					<X>630.464</X><Y>562.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8178,13 +8408,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527981</Id>
 					<Name><![CDATA[chair188]]></Name>
-					<X>620.935</X><Y>482.468</Y>
+					<X>690.935</X><Y>482.468</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>620.935</X><Y>482.468</Y><Z>0</Z>
+					<X>690.935</X><Y>482.468</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8207,13 +8437,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555527991</Id>
 					<Name><![CDATA[table_57]]></Name>
-					<X>570.464</X><Y>552.021</Y>
+					<X>640.464</X><Y>552.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>570.464</X><Y>552.021</Y><Z>0</Z>
+					<X>640.464</X><Y>552.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8240,13 +8470,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528002</Id>
 					<Name><![CDATA[chair189]]></Name>
-					<X>560.464</X><Y>442.021</Y>
+					<X>630.464</X><Y>442.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>560.464</X><Y>442.021</Y><Z>0</Z>
+					<X>630.464</X><Y>442.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8269,13 +8499,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528013</Id>
 					<Name><![CDATA[chair190]]></Name>
-					<X>581</X><Y>403</Y>
+					<X>651</X><Y>403</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>581</X><Y>403</Y><Z>0</Z>
+					<X>651</X><Y>403</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8298,13 +8528,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528024</Id>
 					<Name><![CDATA[chair191]]></Name>
-					<X>581</X><Y>423</Y>
+					<X>651</X><Y>423</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>581</X><Y>423</Y><Z>0</Z>
+					<X>651</X><Y>423</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8327,13 +8557,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528034</Id>
 					<Name><![CDATA[chair192]]></Name>
-					<X>620.935</X><Y>523.745</Y>
+					<X>690.935</X><Y>523.745</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>620.935</X><Y>523.745</Y><Z>0</Z>
+					<X>690.935</X><Y>523.745</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8356,13 +8586,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528044</Id>
 					<Name><![CDATA[chair193]]></Name>
-					<X>580.935</X><Y>482.468</Y>
+					<X>650.935</X><Y>482.468</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>580.935</X><Y>482.468</Y><Z>0</Z>
+					<X>650.935</X><Y>482.468</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8385,13 +8615,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528054</Id>
 					<Name><![CDATA[chair194]]></Name>
-					<X>580.464</X><Y>542.021</Y>
+					<X>650.464</X><Y>542.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>580.464</X><Y>542.021</Y><Z>0</Z>
+					<X>650.464</X><Y>542.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8414,13 +8644,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528064</Id>
 					<Name><![CDATA[chair195]]></Name>
-					<X>560.464</X><Y>482.021</Y>
+					<X>630.464</X><Y>482.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>560.464</X><Y>482.021</Y><Z>0</Z>
+					<X>630.464</X><Y>482.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8443,13 +8673,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528075</Id>
 					<Name><![CDATA[chair196]]></Name>
-					<X>600.464</X><Y>402.021</Y>
+					<X>670.464</X><Y>402.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>600.464</X><Y>402.021</Y><Z>0</Z>
+					<X>670.464</X><Y>402.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8472,13 +8702,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528085</Id>
 					<Name><![CDATA[chair197]]></Name>
-					<X>621</X><Y>423</Y>
+					<X>691</X><Y>423</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>621</X><Y>423</Y><Z>0</Z>
+					<X>691</X><Y>423</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8501,13 +8731,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528095</Id>
 					<Name><![CDATA[chair198]]></Name>
-					<X>580.935</X><Y>441.191</Y>
+					<X>650.935</X><Y>441.191</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>580.935</X><Y>441.191</Y><Z>0</Z>
+					<X>650.935</X><Y>441.191</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8530,13 +8760,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528105</Id>
 					<Name><![CDATA[chair199]]></Name>
-					<X>580.464</X><Y>502.021</Y>
+					<X>650.464</X><Y>502.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>580.464</X><Y>502.021</Y><Z>0</Z>
+					<X>650.464</X><Y>502.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8559,13 +8789,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528115</Id>
 					<Name><![CDATA[chair200]]></Name>
-					<X>600.464</X><Y>562.021</Y>
+					<X>670.464</X><Y>562.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>600.464</X><Y>562.021</Y><Z>0</Z>
+					<X>670.464</X><Y>562.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8588,13 +8818,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528126</Id>
 					<Name><![CDATA[chair201]]></Name>
-					<X>600</X><Y>380</Y>
+					<X>670</X><Y>380</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>600</X><Y>380</Y><Z>0</Z>
+					<X>670</X><Y>380</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8617,13 +8847,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528136</Id>
 					<Name><![CDATA[chair202]]></Name>
-					<X>580.935</X><Y>523.745</Y>
+					<X>650.935</X><Y>523.745</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>580.935</X><Y>523.745</Y><Z>0</Z>
+					<X>650.935</X><Y>523.745</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8646,13 +8876,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528146</Id>
 					<Name><![CDATA[chair203]]></Name>
-					<X>600.529</X><Y>503.83</Y>
+					<X>670.529</X><Y>503.83</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>600.529</X><Y>503.83</Y><Z>0</Z>
+					<X>670.529</X><Y>503.83</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8675,13 +8905,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528156</Id>
 					<Name><![CDATA[chair204]]></Name>
-					<X>560.464</X><Y>542.021</Y>
+					<X>630.464</X><Y>542.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>560.464</X><Y>542.021</Y><Z>0</Z>
+					<X>630.464</X><Y>542.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8704,13 +8934,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528167</Id>
 					<Name><![CDATA[table_58]]></Name>
-					<X>610.464</X><Y>472.021</Y>
+					<X>680.464</X><Y>472.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>610.464</X><Y>472.021</Y><Z>0</Z>
+					<X>680.464</X><Y>472.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8737,13 +8967,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528177</Id>
 					<Name><![CDATA[chair205]]></Name>
-					<X>600.529</X><Y>462.553</Y>
+					<X>670.529</X><Y>462.553</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>600.529</X><Y>462.553</Y><Z>0</Z>
+					<X>670.529</X><Y>462.553</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8766,13 +8996,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528187</Id>
 					<Name><![CDATA[chair206]]></Name>
-					<X>620.464</X><Y>542.021</Y>
+					<X>690.464</X><Y>542.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>620.464</X><Y>542.021</Y><Z>0</Z>
+					<X>690.464</X><Y>542.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8795,13 +9025,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528198</Id>
 					<Name><![CDATA[chair207]]></Name>
-					<X>600.464</X><Y>482.021</Y>
+					<X>670.464</X><Y>482.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>600.464</X><Y>482.021</Y><Z>0</Z>
+					<X>670.464</X><Y>482.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8824,13 +9054,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528208</Id>
 					<Name><![CDATA[chair208]]></Name>
-					<X>620.464</X><Y>562.021</Y>
+					<X>690.464</X><Y>562.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>620.464</X><Y>562.021</Y><Z>0</Z>
+					<X>690.464</X><Y>562.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8853,13 +9083,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528218</Id>
 					<Name><![CDATA[chair209]]></Name>
-					<X>560.529</X><Y>462.553</Y>
+					<X>630.529</X><Y>462.553</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>560.529</X><Y>462.553</Y><Z>0</Z>
+					<X>630.529</X><Y>462.553</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8882,13 +9112,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528228</Id>
 					<Name><![CDATA[table_59]]></Name>
-					<X>610.464</X><Y>552.021</Y>
+					<X>680.464</X><Y>552.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>610.464</X><Y>552.021</Y><Z>0</Z>
+					<X>680.464</X><Y>552.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8915,13 +9145,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528238</Id>
 					<Name><![CDATA[table_60]]></Name>
-					<X>610.464</X><Y>392.021</Y>
+					<X>680.464</X><Y>392.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>610.464</X><Y>392.021</Y><Z>0</Z>
+					<X>680.464</X><Y>392.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8948,13 +9178,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528249</Id>
 					<Name><![CDATA[chair210]]></Name>
-					<X>580.464</X><Y>562.021</Y>
+					<X>650.464</X><Y>562.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>580.464</X><Y>562.021</Y><Z>0</Z>
+					<X>650.464</X><Y>562.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -8977,13 +9207,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555528259</Id>
 					<Name><![CDATA[table_61]]></Name>
-					<X>570.464</X><Y>432.021</Y>
+					<X>640.464</X><Y>432.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>570.464</X><Y>432.021</Y><Z>0</Z>
+					<X>640.464</X><Y>432.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9010,13 +9240,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537063</Id>
 					<Name><![CDATA[table_62]]></Name>
-					<X>650.464</X><Y>392.021</Y>
+					<X>720.464</X><Y>392.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>650.464</X><Y>392.021</Y><Z>0</Z>
+					<X>720.464</X><Y>392.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9043,13 +9273,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537076</Id>
 					<Name><![CDATA[chair211]]></Name>
-					<X>661</X><Y>383</Y>
+					<X>731</X><Y>383</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>661</X><Y>383</Y><Z>0</Z>
+					<X>731</X><Y>383</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9072,13 +9302,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537086</Id>
 					<Name><![CDATA[table_63]]></Name>
-					<X>650.464</X><Y>472.021</Y>
+					<X>720.464</X><Y>472.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>650.464</X><Y>472.021</Y><Z>0</Z>
+					<X>720.464</X><Y>472.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9105,13 +9335,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537096</Id>
 					<Name><![CDATA[chair212]]></Name>
-					<X>640.529</X><Y>503.83</Y>
+					<X>710.529</X><Y>503.83</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>640.529</X><Y>503.83</Y><Z>0</Z>
+					<X>710.529</X><Y>503.83</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9134,13 +9364,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537106</Id>
 					<Name><![CDATA[chair213]]></Name>
-					<X>680.464</X><Y>522.021</Y>
+					<X>750.464</X><Y>522.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>680.464</X><Y>522.021</Y><Z>0</Z>
+					<X>750.464</X><Y>522.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9163,13 +9393,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537116</Id>
 					<Name><![CDATA[table_64]]></Name>
-					<X>690.464</X><Y>512.021</Y>
+					<X>760.464</X><Y>512.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>690.464</X><Y>512.021</Y><Z>0</Z>
+					<X>760.464</X><Y>512.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9196,13 +9426,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537126</Id>
 					<Name><![CDATA[chair214]]></Name>
-					<X>660.464</X><Y>462.021</Y>
+					<X>730.464</X><Y>462.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>660.464</X><Y>462.021</Y><Z>0</Z>
+					<X>730.464</X><Y>462.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9225,13 +9455,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537136</Id>
 					<Name><![CDATA[chair215]]></Name>
-					<X>680.464</X><Y>442.021</Y>
+					<X>750.464</X><Y>442.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>680.464</X><Y>442.021</Y><Z>0</Z>
+					<X>750.464</X><Y>442.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9254,13 +9484,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537146</Id>
 					<Name><![CDATA[chair216]]></Name>
-					<X>700.464</X><Y>462.021</Y>
+					<X>770.464</X><Y>462.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>700.464</X><Y>462.021</Y><Z>0</Z>
+					<X>770.464</X><Y>462.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9283,13 +9513,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537156</Id>
 					<Name><![CDATA[chair217]]></Name>
-					<X>640.464</X><Y>402.021</Y>
+					<X>710.464</X><Y>402.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>640.464</X><Y>402.021</Y><Z>0</Z>
+					<X>710.464</X><Y>402.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9312,13 +9542,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537165</Id>
 					<Name><![CDATA[chair218]]></Name>
-					<X>701</X><Y>383</Y>
+					<X>771</X><Y>383</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>701</X><Y>383</Y><Z>0</Z>
+					<X>771</X><Y>383</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9341,13 +9571,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537175</Id>
 					<Name><![CDATA[chair219]]></Name>
-					<X>701</X><Y>403</Y>
+					<X>771</X><Y>403</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>701</X><Y>403</Y><Z>0</Z>
+					<X>771</X><Y>403</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9370,13 +9600,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537186</Id>
 					<Name><![CDATA[table_65]]></Name>
-					<X>690.464</X><Y>432.021</Y>
+					<X>760.464</X><Y>432.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>690.464</X><Y>432.021</Y><Z>0</Z>
+					<X>760.464</X><Y>432.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9403,13 +9633,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537197</Id>
 					<Name><![CDATA[chair220]]></Name>
-					<X>680.464</X><Y>542.021</Y>
+					<X>750.464</X><Y>542.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>680.464</X><Y>542.021</Y><Z>0</Z>
+					<X>750.464</X><Y>542.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9432,13 +9662,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537207</Id>
 					<Name><![CDATA[chair221]]></Name>
-					<X>680.529</X><Y>421.276</Y>
+					<X>750.529</X><Y>421.276</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>680.529</X><Y>421.276</Y><Z>0</Z>
+					<X>750.529</X><Y>421.276</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9461,13 +9691,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537217</Id>
 					<Name><![CDATA[chair222]]></Name>
-					<X>640.529</X><Y>421.276</Y>
+					<X>710.529</X><Y>421.276</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>640.529</X><Y>421.276</Y><Z>0</Z>
+					<X>710.529</X><Y>421.276</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9490,13 +9720,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537227</Id>
 					<Name><![CDATA[chair223]]></Name>
-					<X>640</X><Y>380</Y>
+					<X>710</X><Y>380</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>640</X><Y>380</Y><Z>0</Z>
+					<X>710</X><Y>380</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9519,13 +9749,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537237</Id>
 					<Name><![CDATA[table_66]]></Name>
-					<X>650.464</X><Y>512.021</Y>
+					<X>720.464</X><Y>512.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>650.464</X><Y>512.021</Y><Z>0</Z>
+					<X>720.464</X><Y>512.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9552,13 +9782,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537246</Id>
 					<Name><![CDATA[chair224]]></Name>
-					<X>700.935</X><Y>441.191</Y>
+					<X>770.935</X><Y>441.191</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>700.935</X><Y>441.191</Y><Z>0</Z>
+					<X>770.935</X><Y>441.191</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9581,13 +9811,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537258</Id>
 					<Name><![CDATA[chair225]]></Name>
-					<X>700.464</X><Y>502.021</Y>
+					<X>770.464</X><Y>502.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>700.464</X><Y>502.021</Y><Z>0</Z>
+					<X>770.464</X><Y>502.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9610,13 +9840,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537268</Id>
 					<Name><![CDATA[chair226]]></Name>
-					<X>640.464</X><Y>522.021</Y>
+					<X>710.464</X><Y>522.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>640.464</X><Y>522.021</Y><Z>0</Z>
+					<X>710.464</X><Y>522.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9639,13 +9869,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537278</Id>
 					<Name><![CDATA[chair227]]></Name>
-					<X>640.464</X><Y>562.021</Y>
+					<X>710.464</X><Y>562.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>640.464</X><Y>562.021</Y><Z>0</Z>
+					<X>710.464</X><Y>562.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9668,13 +9898,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537289</Id>
 					<Name><![CDATA[chair228]]></Name>
-					<X>700.935</X><Y>482.468</Y>
+					<X>770.935</X><Y>482.468</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>700.935</X><Y>482.468</Y><Z>0</Z>
+					<X>770.935</X><Y>482.468</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9697,13 +9927,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537300</Id>
 					<Name><![CDATA[table_67]]></Name>
-					<X>650.464</X><Y>552.021</Y>
+					<X>720.464</X><Y>552.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>650.464</X><Y>552.021</Y><Z>0</Z>
+					<X>720.464</X><Y>552.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9730,13 +9960,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537310</Id>
 					<Name><![CDATA[chair229]]></Name>
-					<X>640.464</X><Y>442.021</Y>
+					<X>710.464</X><Y>442.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>640.464</X><Y>442.021</Y><Z>0</Z>
+					<X>710.464</X><Y>442.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9759,13 +9989,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537321</Id>
 					<Name><![CDATA[chair230]]></Name>
-					<X>661</X><Y>403</Y>
+					<X>731</X><Y>403</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>661</X><Y>403</Y><Z>0</Z>
+					<X>731</X><Y>403</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9788,13 +10018,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537332</Id>
 					<Name><![CDATA[chair231]]></Name>
-					<X>661</X><Y>423</Y>
+					<X>731</X><Y>423</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>661</X><Y>423</Y><Z>0</Z>
+					<X>731</X><Y>423</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9817,13 +10047,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537342</Id>
 					<Name><![CDATA[chair232]]></Name>
-					<X>700.935</X><Y>523.745</Y>
+					<X>770.935</X><Y>523.745</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>700.935</X><Y>523.745</Y><Z>0</Z>
+					<X>770.935</X><Y>523.745</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9846,13 +10076,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537352</Id>
 					<Name><![CDATA[chair233]]></Name>
-					<X>660.935</X><Y>482.468</Y>
+					<X>730.935</X><Y>482.468</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>660.935</X><Y>482.468</Y><Z>0</Z>
+					<X>730.935</X><Y>482.468</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9875,13 +10105,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537362</Id>
 					<Name><![CDATA[chair234]]></Name>
-					<X>660.464</X><Y>542.021</Y>
+					<X>730.464</X><Y>542.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>660.464</X><Y>542.021</Y><Z>0</Z>
+					<X>730.464</X><Y>542.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9904,13 +10134,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537372</Id>
 					<Name><![CDATA[chair235]]></Name>
-					<X>640.464</X><Y>482.021</Y>
+					<X>710.464</X><Y>482.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>640.464</X><Y>482.021</Y><Z>0</Z>
+					<X>710.464</X><Y>482.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9933,13 +10163,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537383</Id>
 					<Name><![CDATA[chair236]]></Name>
-					<X>680.464</X><Y>402.021</Y>
+					<X>750.464</X><Y>402.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>680.464</X><Y>402.021</Y><Z>0</Z>
+					<X>750.464</X><Y>402.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9962,13 +10192,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537393</Id>
 					<Name><![CDATA[chair237]]></Name>
-					<X>701</X><Y>423</Y>
+					<X>771</X><Y>423</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>701</X><Y>423</Y><Z>0</Z>
+					<X>771</X><Y>423</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -9991,13 +10221,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537403</Id>
 					<Name><![CDATA[chair238]]></Name>
-					<X>660.935</X><Y>441.191</Y>
+					<X>730.935</X><Y>441.191</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>660.935</X><Y>441.191</Y><Z>0</Z>
+					<X>730.935</X><Y>441.191</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10020,13 +10250,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537412</Id>
 					<Name><![CDATA[chair239]]></Name>
-					<X>660.464</X><Y>502.021</Y>
+					<X>730.464</X><Y>502.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>660.464</X><Y>502.021</Y><Z>0</Z>
+					<X>730.464</X><Y>502.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10049,13 +10279,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537422</Id>
 					<Name><![CDATA[chair240]]></Name>
-					<X>680.464</X><Y>562.021</Y>
+					<X>750.464</X><Y>562.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>680.464</X><Y>562.021</Y><Z>0</Z>
+					<X>750.464</X><Y>562.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10078,13 +10308,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537432</Id>
 					<Name><![CDATA[chair241]]></Name>
-					<X>680</X><Y>380</Y>
+					<X>750</X><Y>380</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>680</X><Y>380</Y><Z>0</Z>
+					<X>750</X><Y>380</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10107,13 +10337,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537442</Id>
 					<Name><![CDATA[chair242]]></Name>
-					<X>660.935</X><Y>523.745</Y>
+					<X>730.935</X><Y>523.745</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>660.935</X><Y>523.745</Y><Z>0</Z>
+					<X>730.935</X><Y>523.745</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10136,13 +10366,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537452</Id>
 					<Name><![CDATA[chair243]]></Name>
-					<X>680.529</X><Y>503.83</Y>
+					<X>750.529</X><Y>503.83</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>680.529</X><Y>503.83</Y><Z>0</Z>
+					<X>750.529</X><Y>503.83</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10165,13 +10395,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537462</Id>
 					<Name><![CDATA[chair244]]></Name>
-					<X>640.464</X><Y>542.021</Y>
+					<X>710.464</X><Y>542.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>640.464</X><Y>542.021</Y><Z>0</Z>
+					<X>710.464</X><Y>542.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10194,13 +10424,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537472</Id>
 					<Name><![CDATA[table_68]]></Name>
-					<X>690.464</X><Y>472.021</Y>
+					<X>760.464</X><Y>472.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>690.464</X><Y>472.021</Y><Z>0</Z>
+					<X>760.464</X><Y>472.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10227,13 +10457,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537483</Id>
 					<Name><![CDATA[chair245]]></Name>
-					<X>680.529</X><Y>462.553</Y>
+					<X>750.529</X><Y>462.553</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>680.529</X><Y>462.553</Y><Z>0</Z>
+					<X>750.529</X><Y>462.553</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10256,13 +10486,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537493</Id>
 					<Name><![CDATA[chair246]]></Name>
-					<X>700.464</X><Y>542.021</Y>
+					<X>770.464</X><Y>542.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>700.464</X><Y>542.021</Y><Z>0</Z>
+					<X>770.464</X><Y>542.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10285,13 +10515,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537502</Id>
 					<Name><![CDATA[chair247]]></Name>
-					<X>680.464</X><Y>482.021</Y>
+					<X>750.464</X><Y>482.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>680.464</X><Y>482.021</Y><Z>0</Z>
+					<X>750.464</X><Y>482.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10314,13 +10544,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537512</Id>
 					<Name><![CDATA[chair248]]></Name>
-					<X>700.464</X><Y>562.021</Y>
+					<X>770.464</X><Y>562.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>700.464</X><Y>562.021</Y><Z>0</Z>
+					<X>770.464</X><Y>562.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10343,13 +10573,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537522</Id>
 					<Name><![CDATA[chair249]]></Name>
-					<X>640.529</X><Y>462.553</Y>
+					<X>710.529</X><Y>462.553</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>640.529</X><Y>462.553</Y><Z>0</Z>
+					<X>710.529</X><Y>462.553</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10372,13 +10602,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537532</Id>
 					<Name><![CDATA[table_69]]></Name>
-					<X>690.464</X><Y>552.021</Y>
+					<X>760.464</X><Y>552.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>690.464</X><Y>552.021</Y><Z>0</Z>
+					<X>760.464</X><Y>552.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10405,13 +10635,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537543</Id>
 					<Name><![CDATA[table_70]]></Name>
-					<X>690.464</X><Y>392.021</Y>
+					<X>760.464</X><Y>392.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>690.464</X><Y>392.021</Y><Z>0</Z>
+					<X>760.464</X><Y>392.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10438,13 +10668,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537554</Id>
 					<Name><![CDATA[chair250]]></Name>
-					<X>660.464</X><Y>562.021</Y>
+					<X>730.464</X><Y>562.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>660.464</X><Y>562.021</Y><Z>0</Z>
+					<X>730.464</X><Y>562.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10467,13 +10697,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555537564</Id>
 					<Name><![CDATA[table_71]]></Name>
-					<X>650.464</X><Y>432.021</Y>
+					<X>720.464</X><Y>432.021</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>650.464</X><Y>432.021</Y><Z>0</Z>
+					<X>720.464</X><Y>432.021</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10500,13 +10730,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555817244</Id>
 					<Name><![CDATA[worker1]]></Name>
-					<X>385</X><Y>471</Y>
+					<X>455</X><Y>471</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>385</X><Y>471</Y><Z>0</Z>
+					<X>455</X><Y>471</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10549,13 +10779,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555831250</Id>
 					<Name><![CDATA[table2]]></Name>
-					<X>359</X><Y>560</Y>
+					<X>429</X><Y>560</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>359</X><Y>560</Y><Z>0</Z>
+					<X>429</X><Y>560</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10582,13 +10812,13 @@ Samet CAN--------------150120528]]></Text>
 				<Figure3D>
 					<Id>1672555838083</Id>
 					<Name><![CDATA[worker2]]></Name>
-					<X>373</X><Y>560</Y>
+					<X>443</X><Y>560</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>373</X><Y>560</Y><Z>0</Z>
+					<X>443</X><Y>560</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
@@ -10641,7 +10871,7 @@ Samet CAN--------------150120528]]></Text>
 			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
 			<ExtendsReference>
 				<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
-				<ClassName><![CDATA[Main]]></ClassName>
+				<ClassName><![CDATA[Person]]></ClassName>
 			</ExtendsReference>
 			<Parameters>
 				<Parameter>
@@ -10839,7 +11069,7 @@ Samet CAN--------------150120528]]></Text>
 			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
 			<ExtendsReference>
 				<PackageName><![CDATA[_150119008_150119011_150120528_hw5]]></PackageName>
-				<ClassName><![CDATA[Main]]></ClassName>
+				<ClassName><![CDATA[Person]]></ClassName>
 			</ExtendsReference>
 			<Parameters>
 				<Parameter>
@@ -11026,6 +11256,170 @@ Samet CAN--------------150120528]]></Text>
 			</Presentation>
 
 		</ActiveObjectClass>
+		<!--   =========   Active Object Class   ========  -->
+		<ActiveObjectClass>
+			<Id>1672580189086</Id>
+			<Name><![CDATA[Person]]></Name>
+			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
+			<Generic>false</Generic>
+			<GenericParameter>
+				<Id>1672580189084</Id>
+				<Name><![CDATA[1672580189084]]></Name>
+				<GenericParameterValue Class="CodeValue">
+					<Code><![CDATA[T extends Agent]]></Code>
+				</GenericParameterValue>
+				<GenericParameterLabel><![CDATA[Generic parameter:]]></GenericParameterLabel>
+			</GenericParameter>
+			<FlowChartsUsage>ENTITY</FlowChartsUsage>
+			<SamplesToKeep>100</SamplesToKeep>
+			<LimitNumberOfArrayElements>false</LimitNumberOfArrayElements>
+			<ElementsLimitValue>100</ElementsLimitValue>
+			<MakeDefaultViewArea>true</MakeDefaultViewArea>
+			<SceneGridColor/>
+			<SceneBackgroundColor/>
+			<SceneSkybox>null</SceneSkybox>
+			<AgentProperties>
+	 			<SpaceType>CONTINUOUS</SpaceType>			
+				<EnvironmentDefinesInitialLocation>true</EnvironmentDefinesInitialLocation>
+				<RotateAnimationTowardsMovement>true</RotateAnimationTowardsMovement>
+				<RotateAnimationVertically>false</RotateAnimationVertically>
+				<VelocityCode Class="CodeUnitValue">
+					<Code><![CDATA[10]]></Code>
+					<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
+				</VelocityCode>
+				<PhysicalLength Class="CodeUnitValue">
+					<Code><![CDATA[1]]></Code>
+					<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+				</PhysicalLength>
+				<PhysicalWidth Class="CodeUnitValue">
+					<Code><![CDATA[1]]></Code>
+					<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+				</PhysicalWidth>
+				<PhysicalHeight Class="CodeUnitValue">
+					<Code><![CDATA[1]]></Code>
+					<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+				</PhysicalHeight>
+			</AgentProperties>
+			<EnvironmentProperties>
+					<EnableSteps>false</EnableSteps>
+					<StepDurationCode Class="CodeUnitValue">
+						<Code><![CDATA[1.0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</StepDurationCode>
+					<SpaceType>CONTINUOUS</SpaceType>
+					<WidthCode><![CDATA[500]]></WidthCode>
+					<HeightCode><![CDATA[500]]></HeightCode>
+					<ZHeightCode><![CDATA[0]]></ZHeightCode>
+					<ColumnsCountCode><![CDATA[100]]></ColumnsCountCode>
+					<RowsCountCode><![CDATA[100]]></RowsCountCode>
+					<NeigborhoodType>MOORE</NeigborhoodType>
+					<LayoutType>USER_DEF</LayoutType>
+					<LayoutTypeApplyOnStartup>true</LayoutTypeApplyOnStartup>
+					<NetworkType>USER_DEF</NetworkType>
+					<NetworkTypeApplyOnStartup>true</NetworkTypeApplyOnStartup>
+					<ConnectionsPerAgentCode><![CDATA[2]]></ConnectionsPerAgentCode>
+					<ConnectionsRangeCode><![CDATA[50]]></ConnectionsRangeCode>
+					<NeighborLinkFractionCode><![CDATA[0.95]]></NeighborLinkFractionCode>
+					<MCode><![CDATA[10]]></MCode>
+			</EnvironmentProperties>
+			<DatasetsCreationProperties>
+				<AutoCreate>true</AutoCreate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1672646400000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</RecurrenceCode>
+			</DatasetsCreationProperties>
+			<ScaleRuler>
+				<Id>1672580189082</Id>
+				<Name><![CDATA[scale]]></Name>
+				<X>0</X><Y>-150</Y>
+				<PublicFlag>false</PublicFlag>
+				<PresentationFlag>false</PresentationFlag>
+				<ShowLabel>false</ShowLabel>
+				<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+				<Length>100</Length>
+				<Rotation>0</Rotation>
+				<ScaleType>BASED_ON_LENGTH</ScaleType>
+				<ModelLength>10</ModelLength>
+				<LengthUnits>METER</LengthUnits>
+				<Scale>10</Scale>
+				<InheritedFromParentAgentType>true</InheritedFromParentAgentType>
+			</ScaleRuler>
+			<CurrentLevel>1672580189085</CurrentLevel>
+			<ConnectionsId>1672580189081</ConnectionsId>
+			<Variables>
+				<Variable Class="Parameter">
+					<Id>1672580218326</Id>
+					<Name><![CDATA[priority]]></Name>
+					<X>90</X><Y>50</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[int]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1672580218324</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+			</Variables>
+			<AgentLinks>
+				<AgentLink>
+					<Id>1672580189081</Id>
+					<Name><![CDATA[connections]]></Name>
+					<X>50</X><Y>-50</Y>
+					<Label><X>15</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<HandleReceiveInConnections>false</HandleReceiveInConnections>
+					<AgentLinkType>COLLECTION_OF_LINKS</AgentLinkType>
+					<AgentLinkBidirectional>true</AgentLinkBidirectional>
+					<MessageType><![CDATA[Object]]></MessageType>
+					<LineStyle>SOLID</LineStyle>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineZOrder>UNDER_AGENTS</LineZOrder>
+					<LineArrow>NONE</LineArrow>
+					<LineArrowPosition>END</LineArrowPosition>
+				</AgentLink>
+			</AgentLinks>
+
+
+			<Presentation>
+				<Level>
+					<Id>1672580189085</Id>
+					<Name><![CDATA[level]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LevelVisibility>DIM_NON_CURRENT</LevelVisibility>
+
+
+				</Level>
+			</Presentation>
+
+		</ActiveObjectClass>
 	</ActiveObjectClasses>	
 	<DifferentialEquationsMethod>EULER</DifferentialEquationsMethod>
 	<MixedEquationsMethod>RK45_NEWTON</MixedEquationsMethod>
@@ -11041,7 +11435,7 @@ Samet CAN--------------150120528]]></Text>
 	<Database>
 		<Logging>false</Logging>
 		<AutoExport>false</AutoExport>
-		<ShutdownCompact>false</ShutdownCompact>
+		<ShutdownCompact>true</ShutdownCompact>
 		<ImportSettings>
 		</ImportSettings>
 		<ExportSettings>
@@ -11112,9 +11506,6 @@ Samet CAN--------------150120528]]></Text>
 			</Presentation>
 
 			<Parameters>			
-				<Parameter>
-					<ParameterName><![CDATA[priority]]></ParameterName>
-				</Parameter>
 			</Parameters>			
 			<PresentationProperties>
 				<EnableZoomAndPanning>true</EnableZoomAndPanning>
